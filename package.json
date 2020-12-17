@@ -1,0 +1,25 @@
+{
+  "name": "3d-box-app",
+  "version": "1.0.0",
+  "description": "3d box spa",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "3d",
+    "three.js"
+  ],
+  "author": "Eugene Glushchuk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
