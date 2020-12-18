@@ -21,3 +21,4 @@ npm run client:build
 ```
 npm run start
 ```
+And finall open http://localhost:80 in your browser
