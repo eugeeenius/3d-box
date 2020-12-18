@@ -4,7 +4,7 @@
   "description": "3d box spa",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app.js",
+    "start": "node app.js",
     "server": "nodemon app.js",
     "client": "cross-env NODE_ENV=production npm run start --prefix client",
     "client:install": "npm install --prefix client",
